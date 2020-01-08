@@ -16,7 +16,7 @@ import java.util.Date;
 public class MemberController {
     @GetMapping("/test")
     public Member memberTest(){
-        return new Member(0L, "Wickies", 20, "제주", new Date());
+        return new Member(0L, "Wickies", 20, "서울", new Date());
     }
 
     @GetMapping("/test2")
